@@ -1,0 +1,39 @@
+# **Massive Open Online Courses: Who is participating and who is getting certified?** {#anchor}
+## Project Proposal - Introduction to Data Science 
+### *Hiba Amjad* 
+
+
+When they became popular in 2012, MOOCs were a buzzword- and with them was associated the hope of changing educational access. With time, their provision has only increased, with an increasing number of universities joining the community and providing online courses under their names. Being a relatively recent form of education, literature on learning analytics is scarce; however, a clear understanding regarding MOOCs is their substantially high dropout or non-completion rate.[^1] 
+
+If MOOCs are to live up to expectations associated with them when they first came out, learning technologists need to focus on questions that surround the usage of MOOCs. Who is participating? Who is completing them? And what factors influence completion and certification?
+
+#### Project Goal and Benefit:
+
+The project will provide insight into factors that influence certification; this will allow for researchers and developers to understand what is required to promote completion amongst the participants.
+
+#### Data Set:  
+
+In 2012, MIT and Harvard launched open online courses on edX, a non-profit learning platform co-founded by the two institutions. [^2] This report provides data on 290 Harvard and MIT online courses, 250000 certifications, 4.5 million participants, and 28 million participant hours on the platform. The data provides information on the type of course, enrollment and certification, engagement and participant gender, age and education. The data will be used to predict the certification.
+
+Raw data has been obtained from: https://www.kaggle.com/edx/course-study
+
+#### Analysis:
+
+
+I will be adopting an exploratory approach to explore relationships between variables and answer some questions about the data:
+Group the courses into subjects- and analyze what subjects are most popular amongst participants?
+Which have the highest completion rate?
+Does engagement link to certification for a course?
+Does participant age, gender or prior education link to certification?
+Based on the variables, is it possible to predict certification of a participant?
+
+#### Deliverables:
+R markdown file with code
+Presentation
+
+***
+[^1]: http://s3.amazonaws.com/academia.edu.documents/33781834/MOOCs.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1497944790&Signature=wRzYPs4KyjPE%2BYPhD6VIqqs%2Fp5Y%3D&response-content-disposition=inline%3B%20filename%3DThis_file_I_got_from_the_net_its_very_im.pdf
+
+[^2]: http://jime.open.ac.uk/articles/10.5334/2012-18/
+
+
